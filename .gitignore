@@ -1,0 +1,41 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local env/config
+.env
+.env.*
+
+# Data and heavy artifacts (keep structure, ignore contents)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project instruction docs (do not publish)
+Flight_Delay_Prediction_Project_Instructions.md
+docs/Flight_Delay_Prediction_Project_Instructions.md
